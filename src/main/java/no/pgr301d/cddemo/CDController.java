@@ -10,5 +10,7 @@ class CDController {
     public String hello() {
         return "Hello world";
     }
+    @GetMapping(path = "/")
+    public String hi(){return "this is a text";}
 
 }
